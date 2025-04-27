@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/facundo/Escritorio/csharp/Escuela/login-website/login-webapp/login-webapp.csproj": {}
+    "/home/facundo/Escritorio/csharp/Escuela/login-website/login-website/login-website.csproj": {}
   },
   "projects": {
-    "/home/facundo/Escritorio/csharp/Escuela/login-website/login-webapp/login-webapp.csproj": {
+    "/home/facundo/Escritorio/csharp/Escuela/login-website/login-website/login-website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/facundo/Escritorio/csharp/Escuela/login-website/login-webapp/login-webapp.csproj",
-        "projectName": "login-webapp",
-        "projectPath": "/home/facundo/Escritorio/csharp/Escuela/login-website/login-webapp/login-webapp.csproj",
+        "projectUniqueName": "/home/facundo/Escritorio/csharp/Escuela/login-website/login-website/login-website.csproj",
+        "projectName": "login-website",
+        "projectPath": "/home/facundo/Escritorio/csharp/Escuela/login-website/login-website/login-website.csproj",
         "packagesPath": "/home/facundo/.nuget/packages/",
-        "outputPath": "/home/facundo/Escritorio/csharp/Escuela/login-website/login-webapp/obj/",
+        "outputPath": "/home/facundo/Escritorio/csharp/Escuela/login-website/login-website/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/facundo/.nuget/NuGet/NuGet.Config"

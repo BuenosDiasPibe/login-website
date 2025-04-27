@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lJ26Aens8BJDa2XMGW4gZ4LVZgk/rPeBVGm4crAu1vzdu5viDwMxwgSxILsD5uzV8MS/vnp8QeoGJ3hEkURbzA==",
+  "success": true,
+  "projectFilePath": "/home/facundo/Escritorio/csharp/Escuela/login-website/login-website/login-website.csproj",
+  "expectedPackageFiles": [
+    "/home/facundo/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.14/microsoft.aspnetcore.app.ref.8.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
