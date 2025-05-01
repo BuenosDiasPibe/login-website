@@ -1,0 +1,89 @@
+@page "/Login"
+@rendermode InteractiveServer
+
+<h1>Your Credentials:</h1>
+@*https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.components.forms.editform?view=aspnetcore-9.0*@
+<form action="yqc">
+    <div>
+        <label for="username">nombre: </label>
+        <input type="text" id="username" @bind-value="username">
+    </div>
+    <div>
+        <label for="password">contraseña: </label>
+        <input type="password" id="password" @bind-value="password">
+    </div>
+    <div>
+        <label for="register?">nueva cuenta?: </label>
+        <input type="checkbox" id="register" @bind="isRegister">
+    </div>
+    <div>
+        <input type="button" value="enviar" @onclick="selection">
+    </div>
+</form>
+<p>--------------------------------------------------------------------------------</p>
+<div>
+    <p>@valid</p>
+</div>
+
+@code {
+    private string username="";
+    private string password="";
+    private bool isRegister;
+    private string? valid;
+
+    private async Task selection(){
+        if(isRegister){
+            await HandleRegister();
+            Console.WriteLine("handleRegister");
+        }else{
+            await HandleLogin();
+            Console.WriteLine("handleLogin");
+        }
+    }
+
+    private async Task HandleLogin(){
+        try 
+        {
+            string connectionString = "Host=localhost;Database=databse_name;Username=username;Password=your_password"; //TODO: change values to your database
+
+            using var connection = new Npgsql.NpgsqlConnection(connectionString); // https://www.npgsql.org/doc/api/Npgsql.NpgsqlConnection.html
+            await connection.OpenAsync();
+
+            string query = "SELECT COUNT(*) FROM usuario WHERE nombre = @username AND contraseña = @password";
+            using var command = new Npgsql.NpgsqlCommand(query, connection);
+            command.Parameters.AddWithValue("username", username);
+            command.Parameters.AddWithValue("password", password);
+
+            var result = (long)await command.ExecuteScalarAsync();
+            if(result > 0){
+                valid = "Se inicio sesion!";
+            }else{
+                valid = "las credenciales son incorrectas, intente nuevamente o cree una nueva cuenta";
+            }
+        }
+        catch (Exception ex) {
+            Console.WriteLine($"An error occurred: {ex.Message}");
+        }
+    }
+    private async Task HandleRegister(){
+        try{
+            string connectionString = "Host=localhost;Database=databse_name;Username=username;Password=your_password"; //TODO: change values to your database
+            using var connection = new Npgsql.NpgsqlConnection(connectionString); // https://www.npgsql.org/doc/api/Npgsql.NpgsqlConnection.html
+            await connection.OpenAsync();
+
+            string query = "INSERT INTO usuario (nombre, contraseña) VALUES (@nombre, @contraseña);";
+            using var command = new Npgsql.NpgsqlCommand(query, connection);
+            command.Parameters.AddWithValue("nombre", username);
+            command.Parameters.AddWithValue("contraseña", password);
+            var rowsAffected = await command.ExecuteNonQueryAsync();
+            if (rowsAffected > 0) {
+                valid = "nuevo registro";
+            }
+            else {
+                valid = "hubo un error";
+            }
+        }catch (Exception e) {
+            Console.WriteLine("Exception:" + e);
+        }
+    }
+}

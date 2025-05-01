@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Lg7ax+DaLQPKfHWBSin20H7ogd1fuLGpGxXCfqvDZ6s=",
+  "Hash": "pBzbAeFKNcVzqVfHSjxGTr3epBz4ya/BgoW9XwMmWHI=",
   "Source": "BlazorApp1",
   "BasePath": "_content/BlazorApp1",
   "Mode": "Default",
@@ -521,12 +521,12 @@
       "OriginalItemSpec": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/obj/Debug/net9.0/compressed/psnyflj9j1-w7mf952350.gz",
+      "Identity": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/obj/Debug/net9.0/compressed/psnyflj9j1-3rkpzftjff.gz",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
       "ContentRoot": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/BlazorApp1",
-      "RelativePath": "app#[.{fingerprint=w7mf952350}]?.css.gz",
+      "RelativePath": "app#[.{fingerprint=3rkpzftjff}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -535,8 +535,8 @@
       "RelatedAsset": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/wwwroot/app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "imp1p8vhv9",
-      "Integrity": "Br9gHLfkJCrNXOVGTN4YWiGrVHPzqbYb+U4L/YNyF/E=",
+      "Fingerprint": "70hufv6ivo",
+      "Integrity": "aSPmczy3UlLCUvkXlVU2zShrCSmlZVhsCaDSE2II6ns=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/wwwroot/app.css"
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "w7mf952350",
-      "Integrity": "PNvEyASL960qpWmVJ5Purzbr0F4hodQnu+u/XkKHuE0=",
+      "Fingerprint": "3rkpzftjff",
+      "Integrity": "sZteQ1z8hXWQuwqUNebikt2mAgFN2/2+PdnZoOLnE2A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/app.css"
@@ -2014,13 +2014,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "app.css",
-      "AssetFile": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/obj/Debug/net9.0/compressed/psnyflj9j1-w7mf952350.gz",
+      "Route": "app.3rkpzftjff.css",
+      "AssetFile": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/obj/Debug/net9.0/compressed/psnyflj9j1-3rkpzftjff.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000638977636"
+          "Quality": "0.000620732464"
         }
       ],
       "ResponseHeaders": [
@@ -2030,19 +2030,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1564"
+          "Value": "1610"
         },
         {
           "Name": "ETag",
-          "Value": "\"Br9gHLfkJCrNXOVGTN4YWiGrVHPzqbYb+U4L/YNyF/E=\""
+          "Value": "\"aSPmczy3UlLCUvkXlVU2zShrCSmlZVhsCaDSE2II6ns=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 03:57:11 GMT"
+          "Value": "Mon, 28 Apr 2025 00:02:47 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -2058,18 +2058,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PNvEyASL960qpWmVJ5Purzbr0F4hodQnu+u/XkKHuE0=\""
+          "Value": "W/\"sZteQ1z8hXWQuwqUNebikt2mAgFN2/2+PdnZoOLnE2A=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "3rkpzftjff"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-PNvEyASL960qpWmVJ5Purzbr0F4hodQnu+u/XkKHuE0="
+          "Value": "sha256-sZteQ1z8hXWQuwqUNebikt2mAgFN2/2+PdnZoOLnE2A="
         }
       ]
     },
     {
-      "Route": "app.css",
+      "Route": "app.3rkpzftjff.css",
       "AssetFile": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/wwwroot/app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2079,7 +2087,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2841"
+          "Value": "2930"
         },
         {
           "Name": "Content-Type",
@@ -2087,121 +2095,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PNvEyASL960qpWmVJ5Purzbr0F4hodQnu+u/XkKHuE0=\""
+          "Value": "\"sZteQ1z8hXWQuwqUNebikt2mAgFN2/2+PdnZoOLnE2A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 03:57:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PNvEyASL960qpWmVJ5Purzbr0F4hodQnu+u/XkKHuE0="
-        }
-      ]
-    },
-    {
-      "Route": "app.css.gz",
-      "AssetFile": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/obj/Debug/net9.0/compressed/psnyflj9j1-w7mf952350.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1564"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Br9gHLfkJCrNXOVGTN4YWiGrVHPzqbYb+U4L/YNyF/E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 03:57:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Br9gHLfkJCrNXOVGTN4YWiGrVHPzqbYb+U4L/YNyF/E="
-        }
-      ]
-    },
-    {
-      "Route": "app.w7mf952350.css",
-      "AssetFile": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/obj/Debug/net9.0/compressed/psnyflj9j1-w7mf952350.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000638977636"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1564"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Br9gHLfkJCrNXOVGTN4YWiGrVHPzqbYb+U4L/YNyF/E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 03:57:11 GMT"
+          "Value": "Mon, 28 Apr 2025 00:02:47 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"PNvEyASL960qpWmVJ5Purzbr0F4hodQnu+u/XkKHuE0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w7mf952350"
+          "Value": "3rkpzftjff"
         },
         {
           "Name": "label",
@@ -2209,13 +2117,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PNvEyASL960qpWmVJ5Purzbr0F4hodQnu+u/XkKHuE0="
+          "Value": "sha256-sZteQ1z8hXWQuwqUNebikt2mAgFN2/2+PdnZoOLnE2A="
         }
       ]
     },
     {
-      "Route": "app.w7mf952350.css",
-      "AssetFile": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/wwwroot/app.css",
+      "Route": "app.3rkpzftjff.css.gz",
+      "AssetFile": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/obj/Debug/net9.0/compressed/psnyflj9j1-3rkpzftjff.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2224,7 +2132,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2841"
+          "Value": "1610"
         },
         {
           "Name": "Content-Type",
@@ -2232,56 +2140,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PNvEyASL960qpWmVJ5Purzbr0F4hodQnu+u/XkKHuE0=\""
+          "Value": "\"aSPmczy3UlLCUvkXlVU2zShrCSmlZVhsCaDSE2II6ns=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 03:57:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "w7mf952350"
-        },
-        {
-          "Name": "label",
-          "Value": "app.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PNvEyASL960qpWmVJ5Purzbr0F4hodQnu+u/XkKHuE0="
-        }
-      ]
-    },
-    {
-      "Route": "app.w7mf952350.css.gz",
-      "AssetFile": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/obj/Debug/net9.0/compressed/psnyflj9j1-w7mf952350.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1564"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Br9gHLfkJCrNXOVGTN4YWiGrVHPzqbYb+U4L/YNyF/E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 27 Apr 2025 03:57:11 GMT"
+          "Value": "Mon, 28 Apr 2025 00:02:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2299,7 +2162,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w7mf952350"
+          "Value": "3rkpzftjff"
         },
         {
           "Name": "label",
@@ -2307,7 +2170,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Br9gHLfkJCrNXOVGTN4YWiGrVHPzqbYb+U4L/YNyF/E="
+          "Value": "sha256-aSPmczy3UlLCUvkXlVU2zShrCSmlZVhsCaDSE2II6ns="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/obj/Debug/net9.0/compressed/psnyflj9j1-3rkpzftjff.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000620732464"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1610"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aSPmczy3UlLCUvkXlVU2zShrCSmlZVhsCaDSE2II6ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 00:02:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sZteQ1z8hXWQuwqUNebikt2mAgFN2/2+PdnZoOLnE2A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sZteQ1z8hXWQuwqUNebikt2mAgFN2/2+PdnZoOLnE2A="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/wwwroot/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sZteQ1z8hXWQuwqUNebikt2mAgFN2/2+PdnZoOLnE2A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 00:02:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sZteQ1z8hXWQuwqUNebikt2mAgFN2/2+PdnZoOLnE2A="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/obj/Debug/net9.0/compressed/psnyflj9j1-3rkpzftjff.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aSPmczy3UlLCUvkXlVU2zShrCSmlZVhsCaDSE2II6ns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 00:02:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aSPmczy3UlLCUvkXlVU2zShrCSmlZVhsCaDSE2II6ns="
         }
       ]
     },

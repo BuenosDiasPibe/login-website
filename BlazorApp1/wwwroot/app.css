@@ -1,7 +1,10 @@
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
+.pozo {
+    background: linear-gradient(0, #115577 0%, #561159 100%);
+    color: white;
+}
 a, .btn-link {
     color: #006bb7;
 }
