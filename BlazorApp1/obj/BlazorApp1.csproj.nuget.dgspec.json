@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/BlazorApp1.csproj": {}
+    "/home/clumpl/Documentos/Programacion/login-website/BlazorApp1/BlazorApp1.csproj": {}
   },
   "projects": {
-    "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/BlazorApp1.csproj": {
+    "/home/clumpl/Documentos/Programacion/login-website/BlazorApp1/BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/BlazorApp1.csproj",
+        "projectUniqueName": "/home/clumpl/Documentos/Programacion/login-website/BlazorApp1/BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/BlazorApp1.csproj",
-        "packagesPath": "/home/facundo/.nuget/packages/",
-        "outputPath": "/home/facundo/Escritorio/csharp/Escuela/login-website/BlazorApp1/obj/",
+        "projectPath": "/home/clumpl/Documentos/Programacion/login-website/BlazorApp1/BlazorApp1.csproj",
+        "packagesPath": "/home/clumpl/.nuget/packages/",
+        "outputPath": "/home/clumpl/Documentos/Programacion/login-website/BlazorApp1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/facundo/.nuget/NuGet/NuGet.Config"
+          "/home/clumpl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/facundo/.dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/clumpl/.dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

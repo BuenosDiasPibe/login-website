@@ -22,7 +22,7 @@
 </form>
 <p>--------------------------------------------------------------------------------</p>
 <div>
-    <p>@valid</p>
+    <p style="color: @color" class="papucho">@valid</p>
 </div>
 
 @code {
@@ -30,6 +30,8 @@
     private string password="";
     private bool isRegister;
     private string? valid;
+    private string color;
+    private string connectionString = "Host=localhost;Database=database_name;Username=username;Password=password";
 
     private async Task selection(){
         if(isRegister){
@@ -44,12 +46,11 @@
     private async Task HandleLogin(){
         try 
         {
-            string connectionString = "Host=localhost;Database=databse_name;Username=username;Password=your_password"; //TODO: change values to your database
 
             using var connection = new Npgsql.NpgsqlConnection(connectionString); // https://www.npgsql.org/doc/api/Npgsql.NpgsqlConnection.html
             await connection.OpenAsync();
 
-            string query = "SELECT COUNT(*) FROM usuario WHERE nombre = @username AND contraseña = @password";
+            string query = "SELECT COUNT(*) FROM usuarios WHERE nombre = @username AND contraseña = @password";
             using var command = new Npgsql.NpgsqlCommand(query, connection);
             command.Parameters.AddWithValue("username", username);
             command.Parameters.AddWithValue("password", password);
@@ -57,8 +58,10 @@
             var result = (long)await command.ExecuteScalarAsync();
             if(result > 0){
                 valid = "Se inicio sesion!";
+                color = "green";
             }else{
                 valid = "las credenciales son incorrectas, intente nuevamente o cree una nueva cuenta";
+                color = "red";
             }
         }
         catch (Exception ex) {
@@ -67,20 +70,21 @@
     }
     private async Task HandleRegister(){
         try{
-            string connectionString = "Host=localhost;Database=databse_name;Username=username;Password=your_password"; //TODO: change values to your database
             using var connection = new Npgsql.NpgsqlConnection(connectionString); // https://www.npgsql.org/doc/api/Npgsql.NpgsqlConnection.html
             await connection.OpenAsync();
 
-            string query = "INSERT INTO usuario (nombre, contraseña) VALUES (@nombre, @contraseña);";
+            string query = "INSERT INTO usuarios (nombre, contraseña) VALUES (@nombre, @contraseña);";
             using var command = new Npgsql.NpgsqlCommand(query, connection);
             command.Parameters.AddWithValue("nombre", username);
             command.Parameters.AddWithValue("contraseña", password);
             var rowsAffected = await command.ExecuteNonQueryAsync();
             if (rowsAffected > 0) {
                 valid = "nuevo registro";
+                color = "green";
             }
             else {
                 valid = "hubo un error";
+                color = "red";
             }
         }catch (Exception e) {
             Console.WriteLine("Exception:" + e);
